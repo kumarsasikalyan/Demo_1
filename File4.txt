@@ -1,0 +1,85 @@
+
+Training_h2a.09.20@HDC2-D-4XW28R1 MINGW64 ~
+$ cd C:
+
+Training_h2a.09.20@HDC2-D-4XW28R1 MINGW64 /c
+$ cd sasi
+
+Training_h2a.09.20@HDC2-D-4XW28R1 MINGW64 /c/sasi
+$ pwd
+/c/sasi
+
+Training_h2a.09.20@HDC2-D-4XW28R1 MINGW64 /c/sasi
+$ git clone https://github.com/kumarsasikalyan/Demo_1.git
+Cloning into 'Demo_1'...
+remote: Counting objects: 11, done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 11 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (11/11), done.
+
+Training_h2a.09.20@HDC2-D-4XW28R1 MINGW64 /c/sasi
+$ pwd
+/c/sasi
+
+Training_h2a.09.20@HDC2-D-4XW28R1 MINGW64 /c/sasi
+$ cd sasi/
+bash: cd: sasi/: No such file or directory
+
+Training_h2a.09.20@HDC2-D-4XW28R1 MINGW64 /c/sasi
+$ cd sasi/
+bash: cd: sasi/: No such file or directory
+
+Training_h2a.09.20@HDC2-D-4XW28R1 MINGW64 /c/sasi
+$ cd Demo_1
+
+Training_h2a.09.20@HDC2-D-4XW28R1 MINGW64 /c/sasi/Demo_1 (master)
+$ git checkout Develop1
+Switched to a new branch 'Develop1'
+Branch 'Develop1' set up to track remote branch 'Develop1' from 'origin'.
+
+Training_h2a.09.20@HDC2-D-4XW28R1 MINGW64 /c/sasi/Demo_1 (Develop1)
+$ git add .
+
+Training_h2a.09.20@HDC2-D-4XW28R1 MINGW64 /c/sasi/Demo_1 (Develop1)
+$ git status
+On branch Develop1
+Your branch is up to date with 'origin/Develop1'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   File3.txt
+
+
+Training_h2a.09.20@HDC2-D-4XW28R1 MINGW64 /c/sasi/Demo_1 (Develop1)
+$ git commit -m "Initial COmmit to file File3.txt"
+[Develop1 1397c28] Initial COmmit to file File3.txt
+ Committer: Training_H2A.09.20 <Training_h2a.09.20@accenture.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 File3.txt
+
+Training_h2a.09.20@HDC2-D-4XW28R1 MINGW64 /c/sasi/Demo_1 (Develop1)
+$ git push --set-upstream origin Develop1
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 370 bytes | 370.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/kumarsasikalyan/Demo_1.git
+   0b31de0..1397c28  Develop1 -> Develop1
+Branch 'Develop1' set up to track remote branch 'Develop1' from 'origin'.
+
+Training_h2a.09.20@HDC2-D-4XW28R1 MINGW64 /c/sasi/Demo_1 (Develop1)
+$
